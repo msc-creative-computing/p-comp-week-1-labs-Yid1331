@@ -22,18 +22,16 @@ people used this to encourage stars' impressive performances in the concert hund
 
 My dad handed it to me, "Remember to **charge it**, and then you just have to rock it vigorously during the concert."
 
-![HTB11H3HSkvoK1RjSZFNq6AxMVXav](https://user-images.githubusercontent.com/81423727/136028080-73d546ac-1836-47c0-b9a6-03be83981c72.jpg)
+<img src="C:\Users\86186\Desktop\HTB11H3HSkvoK1RjSZFNq6AxMVXav.jpg" alt="HTB11H3HSkvoK1RjSZFNq6AxMVXav" style="zoom: 25%;" />
 
 ### Arduino Schematic
 ![Super Blad](https://user-images.githubusercontent.com/81423727/136033763-d29fa5f6-0ade-428b-9a32-f2f2143bc3c1.png)
 
 ### Demo Video
-[click me, watch a charging lightsaber](https://youtu.be/dIuYnRYtrtQ)
+[Click me, watch a charging lightsaber](https://youtu.be/dIuYnRYtrtQ)
 
 ### Coding
 ```
-// C++ code
-//
 int switchState = 0;
 
 void setup()
