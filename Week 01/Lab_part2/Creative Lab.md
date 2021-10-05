@@ -1,5 +1,5 @@
 # What will the lightsaber become in the peaceful age?
-### Story (Actually I do not know what I say 😃)
+## Story (Actually I do not know what I say 😃)
 ![The-Meaning-of-Each-Lightsaber-Colour-750x375](https://user-images.githubusercontent.com/81423727/136021102-9e28ff95-3514-4542-b929-ac83197eb980.png)
 
 When my father drove a spaceship to take me to the concert of Skr, my favourite alien singer,
@@ -22,15 +22,15 @@ people used this to encourage stars' impressive performances in the concert hund
 
 My dad handed it to me, "Remember to **charge it**, and then you just have to rock it vigorously during the concert."
 
-<img src="C:\Users\86186\Desktop\HTB11H3HSkvoK1RjSZFNq6AxMVXav.jpg" alt="HTB11H3HSkvoK1RjSZFNq6AxMVXav" style="zoom: 25%;" />
+![HTB11H3HSkvoK1RjSZFNq6AxMVXav](https://user-images.githubusercontent.com/81423727/136036367-6e037624-418d-4760-965a-c246f8fcdde7.jpg)
 
-### Arduino Schematic
+## Arduino Schematic
 ![Super Blad](https://user-images.githubusercontent.com/81423727/136033763-d29fa5f6-0ade-428b-9a32-f2f2143bc3c1.png)
 
-### Demo Video
+## Demo Video
 [Click me, watch a charging lightsaber](https://youtu.be/dIuYnRYtrtQ)
 
-### Coding
+## Coding
 ```
 int switchState = 0;
 
