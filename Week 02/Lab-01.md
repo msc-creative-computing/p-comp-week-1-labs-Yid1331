@@ -1,7 +1,6 @@
 # Lab 00 - LEDs in Serial and Parallel
-#### Answer the following questions:
 
-##### How many LEDs can you hook up with a 220k resistor in serial before running out of voltage?
+### How many LEDs can you hook up with a 220k resistor in serial before running out of voltage?
 
 According to the series circuit formula，
 
@@ -27,7 +26,7 @@ We can imagine that the river (current) is blocked by stones (resistor), making 
 
 
 
-##### How many LEDs can you hook up with a 220k resistor in parallel before running out of voltage?
+### How many LEDs can you hook up with a 220k resistor in parallel before running out of voltage?
 
 According to the parallel circuit formula，
 
