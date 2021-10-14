@@ -4,9 +4,9 @@
 
 According to the series circuit formula，
 
-**
+$
 U=U_1+U_2+U_3 ...U_n;
-**
+$
 
 $$
 R=R_+R_2+R_3 ...R_n;
