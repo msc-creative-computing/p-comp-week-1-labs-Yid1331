@@ -32,3 +32,10 @@ The more parallel resistors in the circuit, the smaller the total resistance, an
 
 The circuit will not be exhausted. On the contrary, the brightness of each bulb will be brighter.
 
+# Lab 01 - Serial Data
+
+## Using the hello sketch, play with the serial monitor( In the Arduino menu Tools>Serial Monitor) to tell a wee story based on player input. It can be around 3 lines long.
+### BRIEF
+Players enter their information and generate a confession letter for their partners.
+
+
