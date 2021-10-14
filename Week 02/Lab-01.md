@@ -2,13 +2,15 @@
 
 ### How many LEDs can you hook up with a 220k resistor in serial before running out of voltage?
 
-According to the series circuit formula，
+According to the series circuit formula,
 
-*U=U<sub>1</sub> + U<sub>2</sub> + U<sub>3</sub> ...U<sub>n</sub>;*
 
-*R=R<sub>1</sub>+R<sub>2</sub2>+R<sub>2</sub> ...R<sub>n</sub>;*
+*U=U<sub>1</sub> + U<sub>2</sub> + U<sub>3</sub> ...U<sub>n</sub> *
+
+*R=R<sub>1</sub>+R<sub>2</sub2>+R<sub>3</sub> ...R<sub>n</sub>*
 
 *I=U/R*
+
 
 Each LED in the series circuit will take up a portion of the voltage and consume a part of the current. 
 
@@ -24,7 +26,7 @@ We can imagine that the river (current) is blocked by stones (resistor), making 
 
 According to the parallel circuit formula，
 
-*R=1/R_1+1/R_2+1/R_3 ...1/R_n;*
+*R=1/R<sub>1</sub>+1/R<sub>2</sub>+1/R<sub>3</sub> ...1/R<sub>n</sub>*
 
 The more parallel resistors in the circuit, the smaller the total resistance, and the more current that flows through each LED.
 
