@@ -2,7 +2,7 @@
 
 ### How many LEDs can you hook up with a 220k resistor in serial before running out of voltage?
 
-According to the series circuit formula,
+According to the series circuit formula,  
 
 
 ***U=U<sub>1</sub> + U<sub>2</sub> + U<sub>3</sub> ...U<sub>n</sub>***
