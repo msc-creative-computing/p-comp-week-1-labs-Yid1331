@@ -5,7 +5,7 @@
 According to the series circuit formula，
 
 $
-U=U_1+U_2+U_3 ...U_n;
+U=U~1+U~2+U~3 ...U~n;
 $
 
 $$
