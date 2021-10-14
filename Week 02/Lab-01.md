@@ -4,17 +4,9 @@
 
 According to the series circuit formula，
 
-$
-U=U~1+U~2+U~3 ...U~n;
-$
-H~2~O
-$$
+*U=U<sub>1<sub>+U_2+U_3 ...U_n;
 R=R_+R_2+R_3 ...R_n;
-$$
-
-$$
-I=U/R
-$$
+I=U/R*
 
 Each LED in the series circuit will take up a portion of the voltage and consume a part of the current. 
 
@@ -30,9 +22,8 @@ We can imagine that the river (current) is blocked by stones (resistor), making 
 
 According to the parallel circuit formula，
 
-$$
-R=1/R_1+1/R_2+1/R_3 ...1/R_n;
-$$
+*R=1/R_1+1/R_2+1/R_3 ...1/R_n;*
+
 The more parallel resistors in the circuit, the smaller the total resistance, and the more current that flows through each LED.
 
 The circuit will not be exhausted. On the contrary, the brightness of each bulb will be brighter.
