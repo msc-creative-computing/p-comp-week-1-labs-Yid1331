@@ -134,6 +134,6 @@ void loop (){
 }
 ```
 ### Demo video
-[Click Me](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/nS5RmZFPDMI)
+[[Click Me](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)]
 
 
