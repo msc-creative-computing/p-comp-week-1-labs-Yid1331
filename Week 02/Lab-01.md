@@ -7,7 +7,7 @@ According to the series circuit formula，
 $
 U=U~1+U~2+U~3 ...U~n;
 $
-
+H~2~O
 $$
 R=R_+R_2+R_3 ...R_n;
 $$
