@@ -5,11 +5,11 @@
 According to the series circuit formula,
 
 
-*U=U<sub>1</sub> + U<sub>2</sub> + U<sub>3</sub> ...U<sub>n</sub> *
+***U=U<sub>1</sub> + U<sub>2</sub> + U<sub>3</sub> ...U<sub>n</sub>***
 
-*R=R<sub>1</sub>+R<sub>2</sub2>+R<sub>3</sub> ...R<sub>n</sub>*
+***R=R<sub>1</sub> + R<sub>2</sub2> + R<sub>3</sub> ...R<sub>n</sub>***
 
-*I=U/R*
+***I=U/R***
 
 
 Each LED in the series circuit will take up a portion of the voltage and consume a part of the current. 
