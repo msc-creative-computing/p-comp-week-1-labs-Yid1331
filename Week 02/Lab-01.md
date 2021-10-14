@@ -4,7 +4,7 @@
 
 According to the series circuit formula，
 
-*U=U<sub>1<sub> + U<sub>2<sub> + U <sub> 3 <sub> ...U_n;
+*U=U<sub>1 + U<sub>2<sub> + U <sub> 3 <sub> ...U_n;
 R=R_+R_2+R_3 ...R_n;
 I=U/R*
 
