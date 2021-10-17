@@ -20,8 +20,6 @@ That means that the voltage is exhausted.
 
 We can imagine that the river (current) is blocked by stones (resistor), making the river unable to flow.
 
-
-
 ## QUESTION 02: How many LEDs can you hook up with a 220k resistor in parallel before running out of voltage?
 
 According to the parallel circuit formula，
@@ -133,13 +131,17 @@ void loop (){
  
 }
 ```
+
 ### Demo video
 [Click Me](https://youtu.be/Nef_sg8GEW4)
 
 # Lab 02 - Potentiometers
+
 ## Hook up a knob and have it change the brightness of an LED
+
 ### Schematic
 ![Potentiometers](https://user-images.githubusercontent.com/81423727/137610381-fe64fbf9-b942-40e0-b8a2-17b18c56a635.png)
+
 ### Coding
 ```
 int potPin = 2;    // select the input pin for the potentiometer
@@ -158,5 +160,58 @@ void loop() {
   delay(val);                  // stop the program for some time
 }
 ```
+
 ### Demo Vedio
 [Potentiemoeters control the brightness of an LED](https://youtu.be/ntZ6tzk42Hw)
+
+# Lab 03 - Light Dependent Resistors
+
+## Hook up an LDR. Try making the LED change brightness depending on the light level.
+
+### Coding
+```
+const int LIGHT_PIN = A0; // Pin connected to voltage divider output
+const int LED_PIN = 13; // Use built-in LED as dark indicator
+
+// Measure the voltage at 5V and the actual resistance of your
+// 47k resistor, and enter them below:
+const float VCC = 4.98; // Measured voltage of Ardunio 5V line
+const float R_DIV = 4660.0; // Measured resistance of 3.3k resistor
+
+// Set this to the minimum resistance require to turn an LED on:
+const float DARK_THRESHOLD = 10000.0;
+
+void setup() 
+{
+  Serial.begin(9600);
+  pinMode(LIGHT_PIN, INPUT);
+  pinMode(LED_PIN, OUTPUT);
+}
+
+void loop() 
+{
+  // Read the ADC, and calculate voltage and resistance from it
+  int lightADC = analogRead(LIGHT_PIN);
+  if (lightADC > 0)
+  {
+    // Use the ADC reading to calculate voltage and resistance
+    float lightV = lightADC * VCC / 1023.0;
+    float lightR = R_DIV * (VCC / lightV - 1.0);
+    Serial.println("Voltage: " + String(lightV) + " V");
+    Serial.println("Resistance: " + String(lightR) + " ohms");
+
+    // If resistance of photocell is greater than the dark
+    // threshold setting, turn the LED on.
+    if (lightR >= DARK_THRESHOLD)
+      digitalWrite(LED_PIN, HIGH);
+    else
+      digitalWrite(LED_PIN, LOW);
+
+    Serial.println();
+    delay(500);
+  }
+}
+```
+
+### Demo Vedio
+[LDR]
