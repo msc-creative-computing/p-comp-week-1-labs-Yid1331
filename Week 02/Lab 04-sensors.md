@@ -66,13 +66,13 @@ void loop(){
 ## Overview
 + Use SONAR to determine the distance of an object;
 + Non-contact range detection;
-+ Detection distance: From 2 cm to 400 cm or 1 to 13 feet（英尺）（1 feet= 30.48cm）.
++ Detection distance: From 2 cm to 400 cm or 1 to 13 feet（1 feet= 30.48cm）.
 + General type:HC-SR04
 
 <img src=https://user-images.githubusercontent.com/81423727/137613300-e03d7bc2-9996-4d83-a976-6ec3815bcc28.png width=30% />
 
 ## Principle
-Ultrasonic sensors periodically（周期性） emit short and high-frequency sound waves. These waves travel at the speed of sound in the air. If they encounter an object, they will return to the sensor as an echo signal, so the sensor can calculate the time between sending out（发出） the signal and receiving the echo. Time interval（间隔） to calculate the distance between the sensor and the target.
+Ultrasonic sensors periodically emit short and high-frequency sound waves. These waves travel at the speed of sound in the air. If they encounter an object, they will return to the sensor as an echo signal, so the sensor can calculate the time between sending out the signal and receiving the echo. Time interval to calculate the distance between the sensor and the target.
 
 <img src=https://user-images.githubusercontent.com/81423727/137613624-eb2ddb9d-78d3-4710-8245-84d4ea3678ff.png width=30% />
 
@@ -85,18 +85,18 @@ Ultrasonic sensors periodically（周期性） emit short and high-frequency sou
 + Echo: Echo Pin.
 
 
-# Tilt Sensor 倾斜
+# Tilt Sensor
 ## Overview
-+ A sensor that can sense changes in the angle（角度） of the object
-+ **Switch** They are referred to as "mercury（水银） switches", "tilt switches" or "rolling ball（滚球） sensors" 
++ A sensor that can sense changes in the angle of the object
++ **Switch** They are referred to as "mercury switches", "tilt switches" or "rolling ball sensors" 
 + Output form of digital switching output (0 and 1)
 
 <img src=https://user-images.githubusercontent.com/81423727/137621281-eb141bd9-bc05-4885-a0a6-55a552ddcc03.png width=30% />
 
 ## Principle
-They are usually made by a cavity（空腔） of some sort（种类） (cylindrical（圆柱形） is popular, although not always) and a conductive（导电的） free mass inside, such as a blob of mercury or rolling ball. 
-One end of the cavity has two conductive elements (poles极点). 
-When the sensor is oriented（面向） so that that end is downwards, the mass rolls onto the poles and shorts them, acting as a **switch** throw.
+They are usually made by a cavity of some sort (cylindrical is popular, although not always) and a conductive free mass inside, such as a blob of mercury or rolling ball. 
+One end of the cavity has two conductive elements (poles). 
+When the sensor is oriented so that that end is downwards, the mass rolls onto the poles and shorts them, acting as a **switch** throw.
 
 ## Structure
 <img src=https://user-images.githubusercontent.com/81423727/137621852-f932c234-368e-48f8-8a55-97ff41cea341.png width=30% />
