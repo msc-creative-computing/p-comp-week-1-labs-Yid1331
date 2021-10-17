@@ -124,3 +124,50 @@ if(tilt){
   }
 }
 ```
+
+# 4.Temp Sensor
+## Overview
++ An **analog** temperature sensor
++ Temperature range: -40°C to 150°C / -40°F to 302°F
+
+<img src=https://user-images.githubusercontent.com/81423727/137622806-cffba97d-9715-4da7-9cc0-67700e6c409d.png width=30% />
+
+## Principle（Formula）
+<img src=https://user-images.githubusercontent.com/81423727/137623013-68eb7eed-2b45-4585-9c1e-8f2b0ed02581.png width=30% />
+
+a=LM35 temporature sensor
+
+b=TMP36 temporature sensor
+
+To convert the voltage to temperature, simply use the basic formula:
+
+***Temp in °C = [(Vout in mV) - 500] / 10***
+
+So for example, if the voltage out is 1V that means that the temperature is 
+
+***(1000 mV - 500) / 10 = 50 °C***
+
+If you're using a LM35 or similar, use line 'a' in the image above and the formula: 
+
+***Temp in °C = (Vout（输出的电压） in mV) / 10***
+
+**Other formula**
+
+This formula converts the number 0-1023 from the ADC into 0-5000mV (= 5V)
+
+Voltage at pin in milliVolts = (reading from ADC) * (5000（mV）/1024))
+
+This formula converts the number 0-1023 from the ADC into 0-3300mV (= 3.3V)
+
+Voltage at pin in milliVolts = (reading from ADC) * (3300/1024) 
+
+Then, to convert millivolts into temperature, use this formula(if use TMP36):
+
+Centigrade temperature = [(analog voltage in mV) - 500] / 10
+
+## Structure
+<img src=https://user-images.githubusercontent.com/81423727/137622887-f1f911c3-da02-42e2-b4c0-582e3d2ef57f.png width=30% />
+
++ The left pin: to power (2.7-5.5V) and the right pin to ground.
++ The middle pin will have an analog voltage that is directly proportional（成比例的，线性的） (linear) to the temperature. 
++ The analog voltage is independent of the power supply.
