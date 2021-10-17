@@ -85,7 +85,7 @@ Ultrasonic sensors periodically emit short and high-frequency sound waves. These
 + Echo: Echo Pin.
 
 
-# Tilt Sensor
+# 3.Tilt Sensor
 ## Overview
 + A sensor that can sense changes in the angle of the object
 + **Switch** They are referred to as "mercury switches", "tilt switches" or "rolling ball sensors" 
