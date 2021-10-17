@@ -83,3 +83,40 @@ Ultrasonic sensors periodically（周期性） emit short and high-frequency sou
 + Gnd: to GND;
 + Trig: Trigger Pin;
 + Echo: Echo Pin.
+
+
+# Tilt Sensor
+## Overview
++ A sensor that can sense changes in the angle of the object
++ They are referred to as "mercury switches", "tilt switches" or "rolling ball sensors" for obvious reasons
++ Output form of digital switching output (0 and 1)
+
+<img src=https://user-images.githubusercontent.com/81423727/137621281-eb141bd9-bc05-4885-a0a6-55a552ddcc03.png width=30% />
+
+## Principle
+They are usually made by a cavity of some sort (cylindrical is popular, although not always) and a conductive free mass inside, such as a blob of mercury or rolling ball. One end of the cavity has two conductive elements (poles). When the sensor is oriented so that that end is downwards, the mass rolls onto the poles and shorts them, acting as a switch throw.
+
+## Structure
++ VCC external 3.3V-5V voltage (can be directly connected to the 5v microcontroller and 3.3v microcontroller)
++ GND external GND
++ DO-board digital output interface (0 and 1)
++ A sensitivity adjust
+
+## Experiment Coding
+```
+
+void setup() {
+  pinMode(2,INPUT);
+  pinMode(13,OUTPUT);
+}
+
+void loop() {
+boolean tilt;
+tilt=digitalRead(2);
+if(tilt){
+    digitalWrite(13,HIGH);
+  }else{
+    digitalWrite(13,LOW);
+  }
+}
+```
