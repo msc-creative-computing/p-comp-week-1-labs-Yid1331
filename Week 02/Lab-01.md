@@ -138,6 +138,8 @@ void loop (){
 
 # Lab 02 - Potentiometers
 ## Hook up a knob and have it change the brightness of an LED
+### Schematic
+![Potentiometers](D:\CCI\term 01\CCI_pcomp\Week 02\2.labs\Lab 02)
 ### Coding
 ```
 int potPin = 2;    // select the input pin for the potentiometer
