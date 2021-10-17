@@ -1,8 +1,9 @@
 # 1.PIR（Passive Infrared） Motion Senor
 ## Overview
-IR sensors allow you to sense motion, almost always used to detect whether a human has moved in or out of the sensors range. 
++ Sense motion;
++ To detect whether a human has moved in or out of the sensors range;
++ General type:HC-SR501; 
 
-General type:HC-SR501
 <img src=https://user-images.githubusercontent.com/81423727/137350905-c01bec5b-3fe7-4c0b-9b0f-755362d283e7.png width=30% />
 
 ## Principle
