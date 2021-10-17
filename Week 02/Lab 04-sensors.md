@@ -59,3 +59,25 @@ void loop(){
 ```
 ## Demo Vedio
 [PIR](https://youtu.be/kSdFCflDH5w)
+
+# 2.Ultrasonic Sensor
+## Overview
++ Use SONAR to determine the distance of an object;
++ Non-contact range detection;
++ Detection distance: From 2 cm to 400 cm or 1 to 13 feet（英尺）（1 feet= 30.48cm）.
++ General type:HC-SR04
+
+<img src=https://user-images.githubusercontent.com/81423727/137613300-e03d7bc2-9996-4d83-a976-6ec3815bcc28.png width=30% />
+
+## Principle
+Ultrasonic sensors periodically（周期性） emit short and high-frequency sound waves. These waves travel at the speed of sound in the air. If they encounter an object, they will return to the sensor as an echo signal, so the sensor can calculate the time between sending out（发出） the signal and receiving the echo. Time interval（间隔） to calculate the distance between the sensor and the target.
+
+<img src=https://user-images.githubusercontent.com/81423727/137613624-eb2ddb9d-78d3-4710-8245-84d4ea3678ff.png width=30% />
+
+## Structure
+<img src=https://user-images.githubusercontent.com/81423727/137613722-28d8159c-177f-4892-a5f0-425bebe942f7.png width=30% />
+
++ Vcc: to VOUT;
++ Gnd: to GND;
++ Trig: Trigger Pin;
++ Echo: Echo Pin.
