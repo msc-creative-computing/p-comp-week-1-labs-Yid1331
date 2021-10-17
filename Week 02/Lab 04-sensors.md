@@ -85,26 +85,30 @@ Ultrasonic sensors periodically（周期性） emit short and high-frequency sou
 + Echo: Echo Pin.
 
 
-# Tilt Sensor
+# Tilt Sensor 倾斜
 ## Overview
-+ A sensor that can sense changes in the angle of the object
-+ They are referred to as "mercury switches", "tilt switches" or "rolling ball sensors" for obvious reasons
++ A sensor that can sense changes in the angle（角度） of the object
++ **Switch** They are referred to as "mercury（水银） switches", "tilt switches" or "rolling ball（滚球） sensors" 
 + Output form of digital switching output (0 and 1)
 
 <img src=https://user-images.githubusercontent.com/81423727/137621281-eb141bd9-bc05-4885-a0a6-55a552ddcc03.png width=30% />
 
 ## Principle
-They are usually made by a cavity of some sort (cylindrical is popular, although not always) and a conductive free mass inside, such as a blob of mercury or rolling ball. One end of the cavity has two conductive elements (poles). When the sensor is oriented so that that end is downwards, the mass rolls onto the poles and shorts them, acting as a switch throw.
+They are usually made by a cavity（空腔） of some sort（种类） (cylindrical（圆柱形） is popular, although not always) and a conductive（导电的） free mass inside, such as a blob of mercury or rolling ball. 
+One end of the cavity has two conductive elements (poles极点). 
+When the sensor is oriented（面向） so that that end is downwards, the mass rolls onto the poles and shorts them, acting as a **switch** throw.
 
 ## Structure
+<img src=https://user-images.githubusercontent.com/81423727/137621852-f932c234-368e-48f8-8a55-97ff41cea341.png width=30% />
+
 + VCC external 3.3V-5V voltage (can be directly connected to the 5v microcontroller and 3.3v microcontroller)
 + GND external GND
 + DO-board digital output interface (0 and 1)
 + A sensitivity adjust
++ LED: Power LED and D0 LED
 
 ## Experiment Coding
 ```
-
 void setup() {
   pinMode(2,INPUT);
   pinMode(13,OUTPUT);
