@@ -149,7 +149,7 @@ So for example, if the voltage out is 1V that means that the temperature is
 
 If you're using a LM35 or similar, use line 'a' in the image above and the formula: 
 
-***Temp in °C = (Vout（输出的电压） in mV) / 10***
+***Temp in °C = (Vout in mV) / 10***
 
 **Other formula**
 
@@ -169,5 +169,5 @@ Centigrade temperature = [(analog voltage in mV) - 500] / 10
 <img src=https://user-images.githubusercontent.com/81423727/137622887-f1f911c3-da02-42e2-b4c0-582e3d2ef57f.png width=30% />
 
 + The left pin: to power (2.7-5.5V) and the right pin to ground.
-+ The middle pin will have an analog voltage that is directly proportional（成比例的，线性的） (linear) to the temperature. 
++ The middle pin will have an analog voltage that is directly proportional (linear) to the temperature. 
 + The analog voltage is independent of the power supply.
