@@ -1,6 +1,8 @@
 # Micro Servo Test
 
 ## Introduction
+![image](https://user-images.githubusercontent.com/81423727/138293834-823cdb75-4248-494b-b4d8-1453e75a0704.png)
+
 + Test model：Micro Servo SG90;
 + Servo arms can turn 180 degrees;
 + Connect a servo motor to the Arduino:
@@ -12,9 +14,9 @@
 
 ## Basic Function
 + Servo.servoName; :Create a servo object
-+ servo.attach(pin); :Connect digital pin
-+ servo.write(degrees)
-+ servo.writeMicroseconds(us)
++ servo.*attach(pin); :Connect digital pin
++ servo.*write(degrees)
++ servo.*writeMicroseconds(us)
 
 ## Coding
 ```
@@ -44,5 +46,5 @@ void loop(){
 }
 ```
 
-## Test
+## Test Video
 ![WeChat_20211021215026 mp4_20211021_215445 (1)](https://user-images.githubusercontent.com/81423727/138293341-7eee20d1-74d5-429f-b4ab-729a01d63c14.gif)
