@@ -7,7 +7,7 @@
   - Connect the power cable that in all standards should be red to 5V on the Arduino;
   - Connect the remaining line on the servo connector to a digital pin on the Arduino.
 + Principle:
-<inmg src=https://user-images.githubusercontent.com/81423727/138289187-97a8ec95-5ebe-42f6-b723-64dec9c8d063.png width=30% />
+<img src=https://user-images.githubusercontent.com/81423727/138289187-97a8ec95-5ebe-42f6-b723-64dec9c8d063.png width=30% />
   - After testing：180 degree = 3000 microseconds
 ## Basic Function
 + Servo.servoName; :Create a servo object
