@@ -31,10 +31,17 @@ Below is a very scribbled schematic.
 
 ## 03 Possible Components
 1.Inflatable suit and its matching air extractor; (I speculate that more air extractors may be needed.)
+
 2.Arduino Uno (maybe need other development boards);
+
 3.Heart rate sensor;
+
 4.Thin film pressure sensor;
+
 5.Speaker;
+
 6.Screen;
+
 7.3D printed shell;
+
 8.Other parts and tools.
