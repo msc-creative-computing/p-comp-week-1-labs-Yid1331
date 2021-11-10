@@ -13,19 +13,16 @@ I interviewed friends around me who can be called obese. They said that obesity 
 First of all, I will block my mobility in some way and bring myself closer to the feeling of obesity. Inflatable clothing is one of the items that I want to consider. They are cute and interesting and can reach my purpose. The principle of inflatable clothing is to use a constantly operating air extractor to draw outside air into the inflatable dress. It needs a continuous operation to ensure that the inflatable clothing is always in an inflated state. 
 
 ![image](https://user-images.githubusercontent.com/81423727/141126025-a023b4ff-c613-4c18-9a06-a3c41f0d2719.png)
-
 ![image](https://user-images.githubusercontent.com/81423727/141126046-0a197df6-f184-4450-a38b-c6e5afd0dd4d.png)
 
 And when I become fat, how can I solve the problem of obesity? Let the inflatable suit no longer expand and control the operation of the air extractor, which is Arduino's function. The heart rate that a person changes during exercise will trigger the operating frequency of the pump.
 
 ![image](https://user-images.githubusercontent.com/81423727/141126094-c55bb302-65e8-4e7b-8270-2a042249f0f5.png)
-
 ![image](https://user-images.githubusercontent.com/81423727/141126101-f73298e3-60ff-4ee4-83f0-b40a060a44f6.png)
 
 Not only that, I hope that when I get fat or thin, there will be a voice reminding me or inspiring me, then I will need a speaker to achieve such a function. I am also considering using a screen for output. I hope that the conditions that trigger all of this are progressive. For example, when I am slightly fat, it is one kind of reminder, and when I am severely obese, it is another reminder. A thin-film pressure sensor may be a good choice. The pressure sensor is connected to the inflatable suit. When the inflatable suit is gradually inflated, the pressure sensor gets progressive pressure, triggering different prompts. 
 
 ![image](https://user-images.githubusercontent.com/81423727/141126141-58499da2-9ef3-4691-9e70-de3543459a7b.png)
-
 ![image](https://user-images.githubusercontent.com/81423727/141126155-aed926fb-e6a8-49b9-83f2-2a3518b52b0c.png)
 
 Below is a very scribbled schematic.
