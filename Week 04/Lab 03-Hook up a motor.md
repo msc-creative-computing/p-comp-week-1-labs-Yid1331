@@ -17,7 +17,8 @@ DC motors normally have just two leads, one positive and one negative. If you co
 Bipolar Junction Transistor
 
 <img src=https://user-images.githubusercontent.com/81423727/140085004-472b2025-86f8-47e7-be7e-6ba38ef12fce.png width=20% />
-![image](https://user-images.githubusercontent.com/81423727/140085283-e1697b1b-98b4-4ad2-8c91-109c18483134.png)
+
+<img src=https://user-images.githubusercontent.com/81423727/140085283-e1697b1b-98b4-4ad2-8c91-109c18483134.png />
 
 B:Base    C:Colector    E:Emitter
 
