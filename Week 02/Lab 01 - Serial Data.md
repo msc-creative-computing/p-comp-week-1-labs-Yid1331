@@ -1,10 +1,10 @@
 # Lab 01 - Serial Data
 
-## Using the hello sketch, play with the serial monitor( In the Arduino menu Tools>Serial Monitor) to tell a wee story based on player input. It can be around 3 lines long.
+## Using the hello sketch, play with the serial monitor to tell a wee story based on player input.
 
 ### BRIEF
 
-Players enter their information and generate a confession letter for their partners.
+Players enter their information and generate a love letter for their partners.
 
 ### CODING
 ```
