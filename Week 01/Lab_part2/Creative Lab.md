@@ -25,7 +25,7 @@ My dad handed it to me, "Remember to **charge it**, and then you just have to ro
 <img src=https://user-images.githubusercontent.com/81423727/136036367-6e037624-418d-4760-965a-c246f8fcdde7.jpg width=30% />
 
 ## Arduino Schematic
-<img src=https://user-images.githubusercontent.com/81423727/136033763-d29fa5f6-0ade-428b-9a32-f2f2143bc3c1.png/>
+<img src=https://user-images.githubusercontent.com/81423727/136033763-d29fa5f6-0ade-428b-9a32-f2f2143bc3c1.png width=100%/>
 
 ## Demo Video
 [Click me, watch a charging lightsaber](https://youtu.be/dIuYnRYtrtQ)
