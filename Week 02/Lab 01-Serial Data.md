@@ -1,4 +1,4 @@
-# Lab 01 - Serial Data
+# Lab 01-Serial Data
 
 ## Q:Using the hello sketch, play with the serial monitor to tell a wee story based on player input.
 
