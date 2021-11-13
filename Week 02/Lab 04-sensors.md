@@ -122,11 +122,6 @@ delay(10);
 ## Demo
 ![Ultrasonic Sensor](https://user-images.githubusercontent.com/81423727/141647948-b142f563-fa22-48d2-ba87-e3cc483e2ec0.gif)
 
-
-
-
-
-
 # 3.Tilt Sensor
 ## Overview
 + A sensor that can sense changes in the angle of the object
@@ -166,6 +161,10 @@ if(tilt){
   }
 }
 ```
+
+## Demo
+![Tilt Sensor](https://user-images.githubusercontent.com/81423727/141648577-ab969e0e-b5f7-4009-9613-8b0abe24461f.gif)
+
 
 # 4.Temp Sensor
 ## Overview
