@@ -2,11 +2,11 @@
 
 ## Using the hello sketch, play with the serial monitor to tell a wee story based on player input.
 
-### BRIEF
+### 01 BRIEF
 
 Players enter their information and generate a love letter for their partners.
 
-### CODING
+### 02 CODING
 ```
  String herName;
  String metTime;
@@ -100,5 +100,5 @@ void loop (){
 }
 ```
 
-### Demo video
+### 03 DEMO VIDEO
 [Click Me](https://youtu.be/Nef_sg8GEW4)
