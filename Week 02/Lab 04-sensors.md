@@ -120,7 +120,8 @@ delay(10);
 ```
 
 ## Demo
-![Ultrasonic Sensor](https://user-images.githubusercontent.com/81423727/141647775-575dd53b-e0d8-457c-9221-7ce262444947.gif)
+![Ultrasonic Sensor](https://user-images.githubusercontent.com/81423727/141647948-b142f563-fa22-48d2-ba87-e3cc483e2ec0.gif)
+
 
 
 
