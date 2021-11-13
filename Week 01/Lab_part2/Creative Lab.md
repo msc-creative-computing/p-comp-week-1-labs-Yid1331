@@ -22,10 +22,10 @@ people used this to encourage stars' impressive performances in the concert hund
 
 My dad handed it to me, "Remember to **charge it**, and then you just have to rock it vigorously during the concert."
 
-![HTB11H3HSkvoK1RjSZFNq6AxMVXav](https://user-images.githubusercontent.com/81423727/136036367-6e037624-418d-4760-965a-c246f8fcdde7.jpg)
+<img src=https://user-images.githubusercontent.com/81423727/136036367-6e037624-418d-4760-965a-c246f8fcdde7.jpg width=30% />
 
 ## Arduino Schematic
-<img src=https://user-images.githubusercontent.com/81423727/136033763-d29fa5f6-0ade-428b-9a32-f2f2143bc3c1.png width=30% />
+<img src=https://user-images.githubusercontent.com/81423727/136033763-d29fa5f6-0ade-428b-9a32-f2f2143bc3c1.png/>
 
 ## Demo Video
 [Click me, watch a charging lightsaber](https://youtu.be/dIuYnRYtrtQ)
