@@ -32,6 +32,105 @@
 ## 04 SCHEMATIC
 ![Grand Wolt-Luulia](https://user-images.githubusercontent.com/81423727/141678114-2c4d7a6e-6251-45a4-88e2-bc14ecfcfadf.png)
 
+## 05 CODING
+### Arduino Coding
+```
+const int trig = 2;
+const int echo = 3; 
+int duration = 0;
+int distance = 0;
+
+void setup()
+{
+  pinMode(trig , OUTPUT);
+  pinMode(echo , INPUT);
+  Serial.begin(9600);
+
+}
+
+void loop()
+
+{
+  digitalWrite(trig , HIGH);
+  delayMicroseconds(1000);
+  digitalWrite(trig , LOW);
+  duration = pulseIn(echo , HIGH);
+  distance = (duration / 2) / 29.1 ;
+
+ if (distance <= 40) {     //change the value for distance measuring
+   digitalWrite(13, HIGH);
+ }else{
+  digitalWrite(13, LOW);
+ }
+
+  if (distance <= 38) {
+    digitalWrite(12, HIGH);
+  }else{
+  digitalWrite(12, LOW);
+  }
+  
+  if (distance <= 36) {
+    digitalWrite(11, HIGH);
+  }else{
+   digitalWrite(11, LOW);
+  }
+
+  if (distance <=34) {
+    digitalWrite(10, HIGH);
+  }else{
+  digitalWrite(10, LOW);
+  }
+
+  if (distance <= 32) {
+    digitalWrite(9, HIGH);
+  }else{
+  digitalWrite(9, LOW);
+  }
+
+ if(distance<=32)
+  {
+    Serial.write("a");
+  }
+  else
+  {
+    Serial.write("b");
+  }
+}
+```
+
+### Processing Coding
+```
+import processing.serial.*;  
+Serial myPort;               
+void setup()
+{
+  size(200,200);
+  ellipse(100,100,100,100);
+  myPort =new Serial(this,"COM8",9600); 
+}
+
+void draw()
+{
+  while(myPort.available()>0)          
+  {
+    char inByte =myPort.readChar();
+    println(inByte);             
+    switch(inByte)
+    {
+      case 'a':                    
+            fill(255,0,0);
+            ellipse(100,100,100,100);
+            break;
+      case 'b':
+            fill(0,255,0);         
+            ellipse(100,100,100,100);
+      default:break;
+    }
+  }
+}
+```
+
+
 
 
 
