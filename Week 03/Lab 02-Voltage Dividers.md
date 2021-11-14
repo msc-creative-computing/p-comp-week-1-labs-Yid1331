@@ -2,11 +2,11 @@
 ## Introduction of RGB LED
 + You can produce almost any color by combining RED GREEN BLUE colors.
 
-<img src=https://user-images.githubusercontent.com/81423727/141686427-6c2368c4-89b0-4d11-949a-64e856bf79bb.png width=30% />
+<img src=https://user-images.githubusercontent.com/81423727/141686427-6c2368c4-89b0-4d11-949a-64e856bf79bb.png width=20% />
 
 + Divided into two types.
   - There are two kinds of RGB LEDs: common anode LED and common cathode LED. The figure below illustrates a common anode and a common cathode LED.
-  - <img src=https://user-images.githubusercontent.com/81423727/141686506-2a09c1ad-656b-4c35-b2e8-a4de1ad575d7.png width=80% />
+  - <img src=https://user-images.githubusercontent.com/81423727/141686506-2a09c1ad-656b-4c35-b2e8-a4de1ad575d7.png width=50% />
   - In a common cathode RGB LED, all three LEDs share a negative connection (cathode). In a common anode RGB LED, the three LEDs share a positive connection (anode).
   - This results in an LED that has 4 pins, one for each LED, and one common cathode or one common anode.
 
