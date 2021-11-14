@@ -2,7 +2,7 @@
 ## 01 MATERIAL
 <img src=https://user-images.githubusercontent.com/81423727/141683875-11785bb2-0b44-4fa8-b3dc-0ce6f0d6ccfa.png width=60% />
 
-## PRODUCTION PROCESS
+## 02 PRODUCTION PROCESS
 ### Step 01
 Cut the paper with a certain degree of hardness and elasticity to the size of the finger width and length.
 
@@ -24,7 +24,7 @@ Merge them.
 <img src=https://user-images.githubusercontent.com/81423727/141684895-593a907b-531e-482f-b9c8-8e43d945972a.jpg width=30% />
 
 
-## DEMO
+## 03 DEMO
 ![output(compress-video-online (1)](https://user-images.githubusercontent.com/81423727/141685557-08258f0e-471d-4b98-bc48-d507975541c9.gif)
 
 
