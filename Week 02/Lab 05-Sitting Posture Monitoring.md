@@ -22,14 +22,16 @@
   - Ultrasonic sensor: Used to detect the distance between the user's head and the screen.
   - Some reminders: Some bulbs or icon reminders on the computer screen.
 
-## COMPONENT REQUIREMENTS:
+## 03 COMPONENT REQUIREMENTS:
 1. Arduino UNO;
 2. Ultrasonic sensor;
 3. Some bulbs;
 4. Jumper wire;
 5. Processing software;
 
-## 
+## 04 SCHEMATIC
+![Grand Wolt-Luulia](https://user-images.githubusercontent.com/81423727/141678114-2c4d7a6e-6251-45a4-88e2-bc14ecfcfadf.png)
+
 
 
 
