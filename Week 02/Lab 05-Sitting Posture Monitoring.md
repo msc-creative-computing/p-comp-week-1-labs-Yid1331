@@ -12,9 +12,9 @@
 ## 02 DESIGN THINKING
 + When we sit in front of the computer for a long time, we unconsciously stretch our heads forward.
 + Just like the picture above.
-+ We can remind the user whether the sitting posture is correct by monitoring the distance between the head and the computer screen.
++ We can remind the user whether the sitting posture is correct by monitoring the **distance between the head and the computer screen.**
 
-<img src=https://user-images.githubusercontent.com/81423727/141677072-877c0a02-91d8-44ff-8dcb-d10d92bc05e5.jpg width=25% /> <img src=https://user-images.githubusercontent.com/81423727/141677076-aa53868a-140d-4a67-94bb-8f351db997c8.jpg width=28% />
+  <img src=https://user-images.githubusercontent.com/81423727/141677072-877c0a02-91d8-44ff-8dcb-d10d92bc05e5.jpg width=25% /> <img src=https://user-images.githubusercontent.com/81423727/141677076-aa53868a-140d-4a67-94bb-8f351db997c8.jpg width=28% />
 
 
 
