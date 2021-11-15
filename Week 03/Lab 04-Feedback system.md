@@ -64,5 +64,5 @@ void loop() {
 
 + When the water level returns to a certain value, the water pipe returns to its original position.
 
-<img src=https://user-images.githubusercontent.com/81423727/141837448-ff48980f-cb91-4897-9980-05d0ba38d12b.gif width=55% />
+<img src=https://user-images.githubusercontent.com/81423727/141837448-ff48980f-cb91-4897-9980-05d0ba38d12b.gif width=60% />
 
