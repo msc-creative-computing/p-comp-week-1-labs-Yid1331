@@ -55,8 +55,14 @@ void loop() {
 ```
 
 ## TEST
++ Simulate the design with crude materials.
++ Pour water into the pipe to simulate a **continuous source of water**.
++ There is a water outlet at the bottom of the container.
++ When the water level reaches a high level, the water pipe changes position.
 
 ![77f4bd7b1061453be822a7d50515a703 (1)](https://user-images.githubusercontent.com/81423727/141837419-4f1dd01c-20d2-4e97-9045-1594f4b84cd2.gif)
+
++ When the water level returns to a certain value, the water pipe returns to its original position.
 
 ![9aee9c45aaa3ca0ebfe1bf36eb47f78f](https://user-images.githubusercontent.com/81423727/141837448-ff48980f-cb91-4897-9980-05d0ba38d12b.gif)
 
