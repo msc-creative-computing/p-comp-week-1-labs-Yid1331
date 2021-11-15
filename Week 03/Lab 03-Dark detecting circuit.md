@@ -11,6 +11,6 @@
 + ![image](https://user-images.githubusercontent.com/81423727/141734247-24eccf55-d426-4721-9ec5-c87be642d4ba.png)
 
 ## Instructure
-+ ![image](https://user-images.githubusercontent.com/81423727/141735355-ea742e63-d109-4a27-9624-a9fe400cee5f.png)
++ <img src=https://user-images.githubusercontent.com/81423727/141735355-ea742e63-d109-4a27-9624-a9fe400cee5f.png width=30% />
 
 + ![image](https://user-images.githubusercontent.com/81423727/141735483-23ec2279-e3f5-44d0-b88f-b3e2dee6dc72.png)
