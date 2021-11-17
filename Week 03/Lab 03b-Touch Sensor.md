@@ -2,9 +2,7 @@
 ## Introduction of standard (bipolar junction) transistors
 + A transistor is a semiconductor device used to amplify or switch electrical signals and power.
 + It is composed of semiconductor material, usually with at least three terminals for connection to an electronic circuit.
-+ <img src=https://user-images.githubusercontent.com/81423727/141734462-9d2709a3-75a1-44ea-99ae-8c21dd15a2d0.png width=30% />
-
-
++ <img src=https://user-images.githubusercontent.com/81423727/141734462-9d2709a3-75a1-44ea-99ae-8c21dd15a2d0.png width=10% />
 
 ## Types of transistor
 + NPN and PNP
