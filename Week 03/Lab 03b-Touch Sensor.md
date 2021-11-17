@@ -13,10 +13,6 @@
 + NPN and PNP
 + <img src=https://user-images.githubusercontent.com/81423727/141734247-24eccf55-d426-4721-9ec5-c87be642d4ba.png width=30% />
 
+## 04 Schematic
 
-
-## SCHEMATIC
-
-
-## TinkerCAD
 
