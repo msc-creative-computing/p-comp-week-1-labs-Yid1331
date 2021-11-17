@@ -1,16 +1,43 @@
-# Dark detecting circuit
-## Introduction of standard (bipolar junction) transistors
-+ A transistor is a semiconductor device used to amplify or switch electrical signals and power.
-+ It is composed of semiconductor material, usually with at least three terminals for connection to an electronic circuit.
-+ ![image](https://user-images.githubusercontent.com/81423727/141734462-9d2709a3-75a1-44ea-99ae-8c21dd15a2d0.png)
+# Dark detecting circuit-GLOWING EGG
+## SCHEMATIC
+![Sizzling Jarv](https://user-images.githubusercontent.com/81423727/142262015-7b91c6bb-4563-4e68-ac5f-2644782ceec4.png)
 
 
+## CODING
+```
 
-## Types of transistor
-+ NPN and PNP
-+ ![image](https://user-images.githubusercontent.com/81423727/141734247-24eccf55-d426-4721-9ec5-c87be642d4ba.png)
+const int ledPin = 13;   //the number of the LED pin
+const int ldrPin = A0;  //the number of the LDR pin
 
-## Instructure
-+ <img src=https://user-images.githubusercontent.com/81423727/141735355-ea742e63-d109-4a27-9624-a9fe400cee5f.png width=30% />
 
-+ ![image](https://user-images.githubusercontent.com/81423727/141735483-23ec2279-e3f5-44d0-b88f-b3e2dee6dc72.png)
+void setup() {
+
+  Serial.begin(9600);
+  pinMode(ledPin, OUTPUT);  //initialize the LED pin as an output
+  pinMode(ldrPin, INPUT);   //initialize the LDR pin as an input
+}
+
+void loop() {
+
+  int ldrStatus = analogRead(ldrPin);   //read the status of the LDR value
+
+   if (ldrStatus <=300) {
+
+    digitalWrite(ledPin, LOW);               //turn LED on
+    Serial.println("LDR is DARK, LED is ON");
+    
+   }
+  else {
+
+    digitalWrite(ledPin, HIGH);          //turn LED off
+    Serial.println("---------------");
+  }
+}
+
+```
+
+## Demo video
+![1](https://user-images.githubusercontent.com/81423727/142260918-b8f373e4-e85e-42d4-9083-d0ddb301dae7.gif)
+
+![2](https://user-images.githubusercontent.com/81423727/142260935-44d7e2d2-d56c-414c-be74-4aff29100474.gif)
+
