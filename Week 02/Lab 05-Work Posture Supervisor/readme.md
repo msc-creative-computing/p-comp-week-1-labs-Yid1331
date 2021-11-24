@@ -4,7 +4,7 @@
 + We spend more and more time working in front of the computer every day.
 + Maybe we didn't realize it, our sitting posture is getting worse and worse. 
 + Poor sitting posture will bring us many potential diseases.
-<img src=https://user-images.githubusercontent.com/81423727/143178953-a614b5cd-500e-400b-987a-6056c87b9fa8.png width=30% />
++ <img src=https://user-images.githubusercontent.com/81423727/143178953-a614b5cd-500e-400b-987a-6056c87b9fa8.png width=60% />
 
 + If a sitting posture monitoring is set up, it will remind us in time when there is a problem with our sitting posture. What will it be like?
 
@@ -15,7 +15,7 @@
   - When the distance between the head and the screen is the correct distance, no reminder is given to the user.
   - The user is reminded when the distance between the head and the screen is not the correct distance.
 
-<img src=https://user-images.githubusercontent.com/81423727/143179053-c3770922-f0a5-4c3a-aeef-e1b37674db62.png width=30% />
++ <img src=https://user-images.githubusercontent.com/81423727/143179053-c3770922-f0a5-4c3a-aeef-e1b37674db62.png width=60% />
 
 + Therefore we need the following devices:
   - Ultrasonic sensor: Used to detect the distance between the user's head and the screen.
@@ -29,7 +29,7 @@
 5. Processing software;
 
 ## 04 SCHEMATIC
-![Untitled Sketch 2_bb](https://user-images.githubusercontent.com/81423727/143179091-40cf7ba3-9528-4da5-9815-3fc7210d3f9a.png)
+<img src=https://user-images.githubusercontent.com/81423727/143179091-40cf7ba3-9528-4da5-9815-3fc7210d3f9a.png width=30% />
 
 
 ## 05 CODING
@@ -57,7 +57,7 @@ void loop()
   duration = pulseIn(echo , HIGH);
   distance = (duration / 2) / 29.1 ;
 
- if (distance <= 40) {     //change the value for distance measuring
+ if (distance <= 40) {    
    digitalWrite(13, HIGH);
  }else{
   digitalWrite(13, LOW);
@@ -130,7 +130,7 @@ void draw()
 }
 ```
 
-## 06 DEMO VIDEO
+## 06 VIDEO
 + Test Video: https://youtu.be/qVprgIdHgk4
 + Simulation Video: https://youtu.be/abje07Kvlgs
 
