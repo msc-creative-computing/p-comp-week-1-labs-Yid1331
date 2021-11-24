@@ -25,7 +25,7 @@ Weblog URL: https://xdongportfolio.myblog.arts.ac.uk/2021/11/24/hello-world/
   - Ultrasonic sensor: Used to detect the distance between the user's head and the screen.
   - Some reminders: Some bulbs or icon reminders on the computer screen.
 
-## 03 COMPONENT REQUIREMENTS:
+## 03 COMPONENT REQUIREMENTS
 1. Arduino UNO;
 2. Ultrasonic sensor;
 3. Some bulbs;
