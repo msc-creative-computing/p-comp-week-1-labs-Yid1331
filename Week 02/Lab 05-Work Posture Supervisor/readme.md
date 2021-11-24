@@ -1,7 +1,7 @@
 # Work Posture Supervisor 
 
 ## 00 Weblog
-(Weblog URL: https://xdongportfolio.myblog.arts.ac.uk/2021/11/24/hello-world/)
+Weblog URL: https://xdongportfolio.myblog.arts.ac.uk/2021/11/24/hello-world/
 
 
 ## 01 INSPIRATION
