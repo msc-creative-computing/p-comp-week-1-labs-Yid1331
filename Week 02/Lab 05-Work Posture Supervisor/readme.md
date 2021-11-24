@@ -4,8 +4,7 @@
 + We spend more and more time working in front of the computer every day.
 + Maybe we didn't realize it, our sitting posture is getting worse and worse. 
 + Poor sitting posture will bring us many potential diseases.
-
-+ ![image](https://user-images.githubusercontent.com/81423727/141676743-468d3ec7-d16a-4499-a284-972764312a66.png)
+<img src=https://user-images.githubusercontent.com/81423727/143178953-a614b5cd-500e-400b-987a-6056c87b9fa8.png width=30% />
 
 + If a sitting posture monitoring is set up, it will remind us in time when there is a problem with our sitting posture. What will it be like?
 
@@ -15,8 +14,8 @@
 + We can remind the user whether the sitting posture is correct by monitoring the **distance between the head and the computer screen.**
   - When the distance between the head and the screen is the correct distance, no reminder is given to the user.
   - The user is reminded when the distance between the head and the screen is not the correct distance.
-  
-  <img src=https://user-images.githubusercontent.com/81423727/141677072-877c0a02-91d8-44ff-8dcb-d10d92bc05e5.jpg width=25% />     <img src=https://user-images.githubusercontent.com/81423727/141677076-aa53868a-140d-4a67-94bb-8f351db997c8.jpg width=28% />
+
+<img src=https://user-images.githubusercontent.com/81423727/143179053-c3770922-f0a5-4c3a-aeef-e1b37674db62.png width=30% />
 
 + Therefore we need the following devices:
   - Ultrasonic sensor: Used to detect the distance between the user's head and the screen.
@@ -30,7 +29,8 @@
 5. Processing software;
 
 ## 04 SCHEMATIC
-![Grand Wolt-Luulia](https://user-images.githubusercontent.com/81423727/141678114-2c4d7a6e-6251-45a4-88e2-bc14ecfcfadf.png)
+![Untitled Sketch 2_bb](https://user-images.githubusercontent.com/81423727/143179091-40cf7ba3-9528-4da5-9815-3fc7210d3f9a.png)
+
 
 ## 05 CODING
 ### Arduino Coding
@@ -132,7 +132,7 @@ void draw()
 
 ## 06 DEMO VIDEO
 + Test Video: https://youtu.be/qVprgIdHgk4
-+ Demo: https://youtu.be/-o789g32Cbs
++ Simulation Video: https://youtu.be/abje07Kvlgs
 
 
 
