@@ -35,6 +35,8 @@
 + The ultrasonic sensor is using 5v/GND, and its Trig and Echo pin wired with D2 and D3, the 5 bulbs are connected to the 9-13 pins respectively as input. As the object approaches the ultrasonic sensor, the bulb is gradually lit.
 
 ## 05 CODING
++ Arduino Code:https://github.com/msc-creative-computing/p-comp-week-1-labs-Yid1331/blob/main/Portfolio%20of%20Work/Project%2001-Work%20Posture%20Supervisor/Arduino%20Code.ino
++ Processing Code:
 
 ## 05 TEST
 <img src=https://user-images.githubusercontent.com/81423727/143872989-ed99f636-0e6c-4da1-bcc2-0f26626edac4.png width=30% />
