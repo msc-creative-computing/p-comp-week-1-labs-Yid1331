@@ -2,7 +2,7 @@
 
 ## 01 INSPIRATION
 + After learning the MPR121 module, I became very interested in it and tried to make the MPR121 module trigger the interaction of sound and music.
-+ <img src=https://user-images.githubusercontent.com/81423727/143860939-00511f7a-943d-4392-a97c-83014621b076.png width=50% />
++ <img src=https://user-images.githubusercontent.com/81423727/143860939-00511f7a-943d-4392-a97c-83014621b076.png width=20% />
 + Arduino Piano using buzzer.
 + Arduino Drum using SD card.
 + Finally, I tried to trigger music visualization with MPR121.
@@ -24,14 +24,15 @@
   - GND => GND Ground
   - 
 + Buzzer-Arduino Nano
-  - '+' -> D3
-  - '-' -> GND Ground
+  - '+' => D3
+  - '-' => GND Ground
   
 #### CODING
 https://github.com/msc-creative-computing/p-comp-week-1-labs-Yid1331/blob/main/Portfolio%20of%20Work/Project%2002-MUSIC/01%20Arduino%20Piano%20Code.ino
 
 #### PRODUCTION PROCESS
 <img src=https://user-images.githubusercontent.com/81423727/143861610-b8d8ad9f-f292-40de-8612-cbfbd315dd9b.png width=50% />
+
 + Install each component on a breadboard and use paper and copper tape to make a simple piano keyboard.
 
 #### DEMO VIDEO
@@ -48,16 +49,16 @@ https://youtu.be/S8zoxsgVmwE
 <img src=https://user-images.githubusercontent.com/81423727/143861908-4285652b-5995-49d0-9853-b073051bec1f.png width=50% />
 
 + SD Card-Arduino Nano
- - CS -> D10
- - SCK ->D13
- - MOSI ->D11
- - MISO ->D12
- - VCC ->5V power
- - GND -> GND Ground
+ - CS => D10
+ - SCK => D13
+ - MOSI => D11
+ - MISO => D12
+ - VCC => 5V power
+ - GND => GND Ground
  
 + Mini Speaker-Arduino Nano
-  - “+” -> D9
-  - “- “ -> GND Ground
+  - '+' => D9
+  - '-' => GND Ground
 
 #### CODING
 https://github.com/msc-creative-computing/p-comp-week-1-labs-Yid1331/blob/main/Portfolio%20of%20Work/Project%2002-MUSIC/02%20Arduino%20Drum%20Code.ino
@@ -88,9 +89,9 @@ https://youtu.be/phSDtyu_MQ8
 
 ## 05 CONCLUSION AND SUMMARY
 
->> The code of the music visualization graphics in the project is what I learned from others, and I want to use the Arduino device to interact more with Processing in the future.
+> The code of the music visualization graphics in the project is what I learned from others, and I want to use the Arduino device to interact more with Processing in the future.
 
->> While searching for information, I found that someone made MIDI music instruments and electronic drums, which could be the direction for improvement of this project.
+> While searching for information, I found that someone made MIDI music instruments and electronic drums, which could be the direction for improvement of this project.
 
 
 
