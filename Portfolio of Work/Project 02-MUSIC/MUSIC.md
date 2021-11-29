@@ -22,7 +22,7 @@
   - A4 => SDA Data
   - A5 => SCL Clock
   - GND => GND Ground
-  - 
+
 + Buzzer-Arduino Nano
   - '+' => D3
   - '-' => GND Ground
@@ -49,12 +49,12 @@ https://youtu.be/S8zoxsgVmwE
 <img src=https://user-images.githubusercontent.com/81423727/143861908-4285652b-5995-49d0-9853-b073051bec1f.png width=50% />
 
 + SD Card-Arduino Nano
- - CS => D10
- - SCK => D13
- - MOSI => D11
- - MISO => D12
- - VCC => 5V power
- - GND => GND Ground
+  - CS => D10
+  - SCK => D13
+  - MOSI => D11
+  - MISO => D12
+  - VCC => 5V power
+  - GND => GND Ground
  
 + Mini Speaker-Arduino Nano
   - '+' => D9
@@ -78,10 +78,12 @@ https://youtu.be/NcDWzTGZvzo
 + <img src=https://user-images.githubusercontent.com/81423727/143862352-2198ebbd-0987-4527-aa8a-51c252457283.png width=50% />
 
 #### CODING
-+ Arduino Code
++ Arduino Code:
+
 https://github.com/msc-creative-computing/p-comp-week-1-labs-Yid1331/blob/main/Portfolio%20of%20Work/Project%2002-MUSIC/03%20MUSIC%20VISUALIZATION-Arduino%20Code.ino
 
-+ Processing Code
++ Processing Code:
+
 https://github.com/msc-creative-computing/p-comp-week-1-labs-Yid1331/blob/main/Portfolio%20of%20Work/Project%2002-MUSIC/03%20MUSIC%20VISUALIZATION-Processing%20Code.ino
 
 #### DEMO VIDEO
