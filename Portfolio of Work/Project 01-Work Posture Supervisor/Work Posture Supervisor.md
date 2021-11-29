@@ -36,16 +36,16 @@
 
 ## 05 CODING
 + Arduino Code:https://github.com/msc-creative-computing/p-comp-week-1-labs-Yid1331/blob/main/Portfolio%20of%20Work/Project%2001-Work%20Posture%20Supervisor/Arduino%20Code.ino
-+ Processing Code:
++ Processing Code:https://github.com/msc-creative-computing/p-comp-week-1-labs-Yid1331/blob/main/Portfolio%20of%20Work/Project%2001-Work%20Posture%20Supervisor/Processing%20Code.ino
 
-## 05 TEST
+## 06 TEST
 <img src=https://user-images.githubusercontent.com/81423727/143872989-ed99f636-0e6c-4da1-bcc2-0f26626edac4.png width=30% />
 
 + Test Video：https://www.youtube.com/watch?v=qVprgIdHgk4
 
 + As the object approaches the ultrasonic sensor, the bulb is gradually lit. To better remind users of errors in sitting posture, I used processing to draw graphics. When the light bulbs are all lit, the graphics will change to remind the user to restore the correct sitting posture.
 
-## 06 SCENE SIMULATION
+## 07 SCENE SIMULATION
 
 + Sensor installation
 + <img src=https://user-images.githubusercontent.com/81423727/143873121-1339f2aa-bfe5-4ead-b981-b4bbd05e8bc5.png width=30% />
@@ -57,7 +57,7 @@
 
 + Simulation scene video：https://youtu.be/abje07Kvlgs
 
-## 07 CONCLUSION AND SUMMARY
+## 08 CONCLUSION AND SUMMARY
 
 >In the scene simulation, I found that the ultrasonic sensor is very unstable for distance measurement, which will cause the reminding process to be inaccurate.
 >The screen icon reminder may not be suitable for all usage scenarios. Consider adding a sound reminder device.
