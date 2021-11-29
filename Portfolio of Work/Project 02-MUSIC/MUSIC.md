@@ -17,10 +17,10 @@
 #### WIRING
 <img src=https://user-images.githubusercontent.com/81423727/143861198-43cc99f2-bd1d-4907-bffe-3114b41d5efa.png width=50% />
 + MPR121-Arduino Nano
-  - 3V3 -> 3.3V Power
-  - A4 -> SDA Data
-  - A5 -> SCL Clock
-  - GND -> GND Ground
+  - 3V3 -- 3.3V Power
+  - A4 -- SDA Data
+  - A5 -- SCL Clock
+  - GND -- GND Ground
   - 
 + Buzzer-Arduino Nano
   - '+' -> D3
