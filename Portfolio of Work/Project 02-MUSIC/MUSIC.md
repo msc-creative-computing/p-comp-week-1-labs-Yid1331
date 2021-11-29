@@ -1,5 +1,12 @@
 # MUSIC
 
+[TOC]
+
+## 01 INSPIRATION
+## 02 ARDUINO PIANO
+#### COMPONENT REQUIREMENTS
+
+
 ## 01 INSPIRATION
 + After learning the MPR121 module, I became very interested in it and tried to make the MPR121 module trigger the interaction of sound and music.
 + <img src=https://user-images.githubusercontent.com/81423727/143860939-00511f7a-943d-4392-a97c-83014621b076.png width=20% />
