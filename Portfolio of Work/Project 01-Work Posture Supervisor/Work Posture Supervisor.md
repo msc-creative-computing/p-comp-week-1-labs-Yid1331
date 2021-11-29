@@ -1,5 +1,15 @@
 # WORK POSTURE SUPERVISOR
 
+## CONTENT
+- [01 INSPIRATION](#01-INSPIRATION)
+- [02 DESIGN THINKING](#02-DESIGN-THINKING)
+- [03 COMPONENT REQUIREMENTS](##03-COMPONENT-REQUIREMENTS)
+- [04 WIRING](#04-WIRING)
+- [05 CODING](#05-CODING)
+- [06 TEST](#06-TEST)
+- [07 SCENE SIMULATION](#07-SCENE-SIMULATION)
+- [08 CONCLUSION AND SUMMARY](#08-CONCLUSION-AND-SUMMARY)
+- 
 ## 01 INSPIRATION
 + We spend more and more time working in front of the computer every day. Maybe we didn't realize it, our sitting posture is getting worse and worse. Poor sitting posture will bring us many potential diseases.
 
