@@ -61,17 +61,21 @@
   - Step 1: Cut corrugated paper into the shape of your hands.
   - Step 2: Cut the straw into small pieces and stick it on your "hand".
   - Step 3: Add other components.
-  - 
+  - ![image](https://user-images.githubusercontent.com/81423727/143981917-bd7a75a9-8bbb-4752-b46d-e7596ae075c6.png)
+
 #### 2.Making Flex Sensor
 + **Material**
-  - 
+  - ![image](https://user-images.githubusercontent.com/81423727/143981954-4572dbd1-9266-421d-81de-6b358f808438.png)
+
 + **Process**
   - Step 1: Cut the paper with a certain degree of hardness and elasticity to the size of the finger width and length.
   - Step 02: Solder the wires to the copper tape.
   - Step 03: Cut Velostat to the right size and stick it on one of the copper tapes.
   - Step 04: Merge them.
-  - 
+  - ![image](https://user-images.githubusercontent.com/81423727/143981971-1d232379-c334-463b-b71c-a38bcf9042b2.png)
+
 #### 3.Install Circuit
++ ![image](https://user-images.githubusercontent.com/81423727/143981994-d69829ac-3c51-4471-b80b-545d20e7b959.png)
 
 + Paste the Flex Sensor on the back of the “hand”.
 + Because the playback effect of the mini speaker is not good, I switched to a 3.5mm speaker for voice playback.
