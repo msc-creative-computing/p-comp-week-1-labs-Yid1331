@@ -9,10 +9,10 @@
 
 ## 02 DESIGN THINKING
 + Common gesture expressions are as follows:
-  - "OK", it means "understood" and "okay".
-  - 
+
+  - "OK", it means "understood" and "okay". 
   - ![image](https://user-images.githubusercontent.com/81423727/143980158-78a7790a-1069-45ad-bc37-7cbede04f4c0.png)
-  - 
+   
   - "Victory!", "Yeah", express the meaning of being happy.
   - ![image](https://user-images.githubusercontent.com/81423727/143980224-a250cc7c-0c0b-4bb5-9299-600800871aaf.png)
   
@@ -61,8 +61,8 @@
   - Step 1: Cut corrugated paper into the shape of your hands.
   - Step 2: Cut the straw into small pieces and stick it on your "hand".
   - Step 3: Add other components.
-  - ![output(compress-video-online (2) (2)](https://user-images.githubusercontent.com/81423727/141953856-f4d1ec82-4cf0-4132-bb1b-4f23ee334804.gif)
   - ![image](https://user-images.githubusercontent.com/81423727/143981917-bd7a75a9-8bbb-4752-b46d-e7596ae075c6.png)
+  - ![output(compress-video-online (2) (2)](https://user-images.githubusercontent.com/81423727/141953856-f4d1ec82-4cf0-4132-bb1b-4f23ee334804.gif)
 
 #### 2.Making Flex Sensor
 + **Material**
