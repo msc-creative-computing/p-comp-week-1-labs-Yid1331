@@ -2,7 +2,7 @@
 
 ## CONTENT
 - [01 Design Inspiration](#01-Design-Inspiration)
-- [02 Design Thinking](#02-Design-Thinking
+- [02 Design Thinking](#02-Design-Thinking)
 - [03 Project Plan](#03-Project-Plan)
 - [04 Production Record](#04-Production-Record)
     - [Phase 1 and Phase 2](#Phase-1-and-Phase-2)
