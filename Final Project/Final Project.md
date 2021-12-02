@@ -44,42 +44,66 @@ Finally, due to the poor sound effect of the mini speaker, I will use an externa
 The acquisition of heart rate is the most critical input of the entire device, and it is the key of the device. After trying the Pulse Sensor, I found that its test value was volatile, and finally, I chose the MAX30102 high-sensitivity pulse oximeter and heart-rate sensor. The other components required are as follows:
 
 a. Components Requirements
+
 •	Arduino Nano × 1
+
 •	MAX30102 High-Sensitivity Pulse Oximeter and Heart-Rate Sensor × 1
+
 •	128*32 OLED display with SSD1306 × 1
+
 •	Buzzer Module × 1 
+
 •	Small Blower × 1
+
 •	A MOSFET × 1
+
 •	A Diode × 1
+
 •	Switch × 1
+
 •	3v Button Battery × 2
+
 •	9v Battery × 1
+
 
 b. Wiring 
 
 ![image](https://user-images.githubusercontent.com/81423727/144359420-65d3a37f-70c8-413c-b0b6-d0571c9158df.png)
 
 MAX 30102-Arduino Nano
+
 •	Vin-5V
+
 •	SDA-A4
+
 •	SCL-A5
+
 •	GND-GND 
 
 OLED-Arduino Nano
+
 •	3.3V-3.3V
+
 •	SDA-A4
+
 •	SCL-A5
+
 •	GND-GND
 
 Buzzer Module-Arduino Nano
+
 •	VCC-5V
+
 •	GND-GND
+
 •	I/O-D3
 
 c. Coding
+
 •	https://github.com/msc-creative-computing/p-comp-week-1-labs-Yid1331/tree/main/Final%20Project
 
 d. Test
+
  ![image](https://user-images.githubusercontent.com/81423727/144359456-167f2eae-1e49-4437-8703-6ef1479cd892.png)
 
 Put your finger on the heart rate sensor, keep it steady (don't change the pressing force), stay for about 10 seconds, the OLED displays the heart rate value, and the buzzer module emits a "didi" sound. When the heart rate value is reached, the blower will be activated.
