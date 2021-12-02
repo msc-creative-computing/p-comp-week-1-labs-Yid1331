@@ -41,6 +41,7 @@ Finally, due to the poor sound effect of the mini speaker, I will use an externa
 ## 04 Production Record
 
 **Phase 1 and Phase 2**
+
 The acquisition of heart rate is the most critical input of the entire device, and it is the key of the device. After trying the Pulse Sensor, I found that its test value was volatile, and finally, I chose the MAX30102 high-sensitivity pulse oximeter and heart-rate sensor. The other components required are as follows:
 
 a. Components Requirements
@@ -108,11 +109,14 @@ d. Test
 
 Put your finger on the heart rate sensor, keep it steady (don't change the pressing force), stay for about 10 seconds, the OLED displays the heart rate value, and the buzzer module emits a "didi" sound. When the heart rate value is reached, the blower will be activated.
 
-**Phase 3 **
+**Phase 3**
 
 a. Components Requirements
+
 •	Airflow Sensor × 1
+
 •	SD Card × 1 
+
 •	Arduino Nano
 
 b. Wiring
@@ -120,19 +124,29 @@ b. Wiring
  ![image](https://user-images.githubusercontent.com/81423727/144359491-0a602834-894c-4d8e-b645-956ded141ceb.png)
 
 SD Card-Arduino Nano
+
 •	Vin-5V
+
 •	CS-D10
+
 •	SCK-D13
+
 •	MOSI-D11
+
 •	MISO-D12
+
 •	GND-GND
 
 Airflow-Arduino Nano
+
 •	3.3V-3.3V
+
 •	TX-RX
+
 •	GND-GND
 
 c. Coding
+
 https://github.com/msc-creative-computing/p-comp-week-1-labs-Yid1331/blob/main/Final%20Project/AirFlow%20Sensor.ino 
 
 d. Test
@@ -145,6 +159,7 @@ During the test, blow air to the airflow sensor until the threshold is reached, 
 **Phase 4**
 
 •	a. Solder
+
 ![image](https://user-images.githubusercontent.com/81423727/144359672-23782f20-3265-4318-b9dd-fe6048b9b771.png)
 
 Connect the components that have been successfully tested with solder, and then test again after the connection, and the test passes. 
@@ -152,21 +167,23 @@ Connect the components that have been successfully tested with solder, and then 
 
 •	b. Modeling
 
-
 In the shell design stage, I mainly designed the hardware held by the participants, with the heart rate sensor placed on the upper part and other components on the lower part. The bottom jack is used to connect to the blower.
 
 ![image](https://user-images.githubusercontent.com/81423727/144359679-43afd7d4-4c44-45e1-87fb-dde0b014140d.png) 
-Modeling
+
 
 ![image](https://user-images.githubusercontent.com/81423727/144359706-94dce794-392e-42d0-adfe-eaa36f26b582.png)
  
-Model Rendering
 
 ## 05 Test and Recording
+
 The test and the entire design process is recorded in the video.
+
 Demo Video:   https://youtu.be/QsN8vCzIbwU
  
 ## 06 Conclusion and Summary
+
 > The heart rate sensor is sometimes very unstable, which is a link that needs to be improved in the future.
+
 > Fitness-related interactive devices have become more and more popular in the market in recent years, such as fitness rings and so on. The future development direction of this design will be devoted to the combination of the physiological changes of the human body during exercise, such as heart rate, body temperature and interactive device. 
  
