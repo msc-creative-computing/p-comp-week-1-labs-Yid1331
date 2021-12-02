@@ -1,5 +1,26 @@
 # FAT SIMULATOR
 
+## CONTENT
+- [01 Design Inspiration](#01-Design-Inspiration)
+- [02 Design Thinking](#02-Design-Thinking
+- [03 Project Plan](#03-Project-Plan)
+- [04 Production Record](#04-Production-Record)
+    - [Phase 1 and Phase 2](#Phase-1-and-Phase-2)
+      - [a. Components Requirements](#a.-Components-Requirements)
+      - [b. Wiring](#b.-Wiring)
+      - [c. Coding](#c.-Coding)
+      - [d. Test](#d.-Test)
+    - [Phase 3](#Phase-3)
+      - [a. Components Requirements](#a.-Components-Requirements)
+      - [b. Wiring](#b.-Wiring)
+      - [c. Coding](#c.-Coding)
+      - [d. Test](#d.-Test)
+    - [Phase 4](#Phase-4)
+      - [a. Solder](#a.-Solder)
+      - [b. Modeling](#b.-Modeling)
+- [05 Test and Recording](#05-Test-and-Recording)
+- [06 Conclusion and Summary](#06-Conclusion-and-Summary)
+
 ## 01 Design Inspiration
 With the increasing pressure of study and work, more and more people have no time to exercise, which leads to many physical diseases, and fat accumulation and body distortion have become one of the most important manifestations. But most people are not aware of the adverse consequences of obesity, such as impairing movement and high blood pressure. Because getting fat is slow, when they find that they are getting fat, it may be too late. 
 
@@ -99,7 +120,7 @@ Buzzer Module-Arduino Nano
 
 •	I/O-D3
 
-c. Coding
+**c. Coding**
 
 •	https://github.com/msc-creative-computing/p-comp-week-1-labs-Yid1331/tree/main/Final%20Project
 
