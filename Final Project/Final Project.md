@@ -22,6 +22,7 @@ To make the experience more interactive and exciting, I hope participants will h
  ![image](https://user-images.githubusercontent.com/81423727/144359210-498b8ba2-b33a-416e-8ae6-5bfad16841df.png)
 
 Finally, due to the poor sound effect of the mini speaker, I will use an external 3.5mm speaker as the sound output device. The following is the overall operation process.
+
  ![image](https://user-images.githubusercontent.com/81423727/144359237-8519fd85-ee34-419e-8996-326d8b50b72a.png)
 
 
